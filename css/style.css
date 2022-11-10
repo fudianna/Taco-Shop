@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  background-color: rgb(195, 193, 193);
+  color: rgb(37, 34, 34);
+}
+
+a {
+  color: rgb(30, 0, 255);
+}
+
+a:hover,
+a:active {
+  color: rgb(104, 135, 245);
+}
+
+tr,
+th,
+td,
+caption {
+  border: 1px solid rgb(85, 85, 85);
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: separate;
+  padding: 0.5rem;
+}

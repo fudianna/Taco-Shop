@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "img[loading]"
+        ]
+      }
+    ],
+    "meta-viewport": "off",
+    "disown-opener": "off"
+  }
+}
